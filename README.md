@@ -15,8 +15,10 @@ This git repo contains a sandbox for learning and running Cromwell + WDL.
 
 Download and install bowtie2, samtools, and bcftools:
 
-* http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-* http://www.htslib.org/
+```
+$ conda create -n wdl-test -c conda-forge -c bioconda bowtie2 samtools bcftools
+$ conda activate wdl-test
+```
 
 Download and install docker:  https://www.docker.com/
 
