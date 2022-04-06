@@ -11,7 +11,7 @@ echo "Indexing BAM"
 samtools index alignments/sim_reads_aligned_1.sorted.bam
 
 echo "Calling variants"
-samtools mpileup -g -f genomes/NC_008253.fna alignments/sim_reads_aligned_1.sorted.bam > alignments/sim_variants_1.bcf
+bcftools mpileup -f genomes/NC_008253.fna alignments/sim_reads_aligned_1.sorted.bam > alignments/sim_variants_1.bcf
 
 bcftools call -c -v alignments/sim_variants_1.bcf > alignments/sim_variants_1.vcf
 

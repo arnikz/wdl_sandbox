@@ -21,4 +21,4 @@ if environment == "google":
 fd = open (json)
 for line in fd:
 	line = line.replace("${base_dir}/", env_base_url)
-	print line,
+	print(line)
