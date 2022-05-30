@@ -1,0 +1,17 @@
+{
+  "ecoliWorkflow.simulated_read_files": 
+    [
+    "https://<storage account>.blob.core.windows.net/inputs/simulated_reads/sim_reads_1.fq"
+    ],
+  "ecoliWorkflow.align2Genome.index_files":  
+    [
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.1.bt2",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.2.bt2",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.3.bt2",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.4.bt2",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.rev.1.bt2",
+      "https://<storage account>.blob.core.windows.net/inputs/indexes/e_coli.rev.2.bt2"
+    ],
+  "ecoliWorkflow.callVariants1.ecoli_genome": "https://<storage account>.blob.core.windows.net/inputs/genomes/NC_008253.fna"
+}
